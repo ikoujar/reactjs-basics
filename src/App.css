@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: 125px 40px;
 }
+
 .App {
   display: flex;
 }
@@ -27,22 +28,22 @@ body {
 }
 
 .add-btn {
-    position: absolute;
-    left: -20px;
-    top: 50%;
-    width: 45px;
-    height: 45px;
-    line-height: 28px;
-    background-color: #c82333;
-    text-align: center;
-    border-radius: 50%;
-    font-size: 30px;
-    border: 0;
-    cursor: pointer;
-    color: #fff;
-    outline: 0;
-    z-index: 10;
-    transform: translateY(-50%);
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 28px;
+  background-color: #c82333;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 30px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  outline: 0;
+  z-index: 10;
+  transform: translateY(-50%);
 }
 
 .notes-list {
@@ -66,7 +67,7 @@ body {
 .form-input {
   display: block;
   width: 100%;
-  padding: .700rem .75rem;
+  padding: 0.7rem 0.75rem;
   font-size: 1rem;
   font-family: cairo;
   line-height: 1.5;
@@ -79,26 +80,26 @@ body {
 }
 
 .note-operations {
-    position: absolute;
-    left: 10%;
-    top: 6%;
-    display: flex;
-    justify-content: space-between;
-    width: 60px;
-    font-size: 20px;
+  position: absolute;
+  left: 10%;
+  top: 6%;
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+  font-size: 20px;
 }
 .note-operations a {
   color: #7b7777;
 }
 
 .button {
-    margin-top: 20px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 60px;
-    font-size: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 60px;
+  font-size: 20px;
 }
 
 .green {
